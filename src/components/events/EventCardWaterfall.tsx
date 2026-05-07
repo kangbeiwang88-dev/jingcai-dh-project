@@ -90,7 +90,7 @@ export function EventWaterfallScroll({ events, onDetail }: {
   const containerRef = useRef<HTMLDivElement>(null);
   const [isPaused, setIsPaused] = useState(false);
   const positionRef = useRef(0);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | undefined>(undefined);
 
   const getCardSize = () => cardSize;
 

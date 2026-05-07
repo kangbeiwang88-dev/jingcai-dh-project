@@ -48,7 +48,8 @@ export type District =
   | "密云区"
   | "延庆区"
   | "门头沟区"
-  | "平谷区";
+  | "平谷区"
+  | "怀柔区";
 
 export const resourceTypes: ResourceType[] = [
   "公共图书馆",
