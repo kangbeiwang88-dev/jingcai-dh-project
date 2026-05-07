@@ -5,12 +5,12 @@ import Tag from "../common/Tag";
 import { Resource } from "../../data/resources";
 
 const typeImages: Record<string, string> = {
-  "博物馆/美术馆": "/图片素材/博物馆图.png",
-  "图书馆": "/图片素材/图书馆.png",
-  "文化馆": "/图片素材/文化馆图.png",
-  "剧场/演出": "/图片素材/演出图.png",
-  "公园/景区": "/图片素材/公园图.png",
-  "阅读空间": "/图片素材/非遗文化图.png",
+  "博物馆/美术馆": "/assets/category-museum.png",
+  "图书馆": "/assets/category-library.png",
+  "文化馆": "/assets/category-culture-center.png",
+  "剧场/演出": "/assets/category-performance.png",
+  "公园/景区": "/assets/category-park.png",
+  "阅读空间": "/assets/category-intangible-culture.png",
 };
 
 export default function ResourceCard({ resource, onDetail }: { resource: Resource; onDetail: (r: Resource) => void }) {
